@@ -1,0 +1,154 @@
+/*** Base Styles ***/
+@font-face {
+  font-family: 'wisdom-script';
+  src: url('../font/wisdom-script.otf') format('opentype');
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+  height: 100px;
+}
+
+#top {
+  height: 450px;
+}
+
+#bottom {
+  height: 215px;
+}
+
+#footer {
+  height: 80px;
+}
+
+/*** Grid Styles ***/
+
+.full-width {
+  width: 1200px;
+  margin:0 auto;
+}
+
+.half-width{
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 30%;
+  float: left;
+}
+
+/*** Header Styles ***/
+
+h1 {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 30px;
+  font-weight:bolder;
+}
+
+span {
+  color: #77a466;
+}
+
+/*** Navigation Styles ***/
+
+nav ul li {
+  display: inline-block;
+
+}
+
+nav ul li a {
+  float: right;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #77a466;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+/*** Main Styles ***/
+
+/*** Top Section Styles ***/
+
+img {
+  border-width: 3px 0 3px 0;
+  border-color: #77a466;
+  border-style: solid;
+}
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#top p {
+  color: #222222;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*** Bottom Section Styles ***/
+
+#bottom .full-width {
+  border-top: solid 1px #dedbdc;
+
+}
+.third-width {
+  padding: 17px 0;
+}
+
+#first ul li {
+  color: #77a466;
+  display: block;
+  text-align: left;
+  list-style: none;
+  margin-left: -40px;
+  padding-bottom: 15px;
+}
+
+#middle {
+  border-right: solid 1px #dedbdc;
+  border-left: solid 1px #dedbdc;
+  padding-left: 45px;
+  padding-right: 35px;
+}
+
+#last {
+  padding-left: 35px;
+}
+#bottom h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#bottom p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*** Footer Styles ***/
+
+footer .full-width {
+  border-top: solid 1px #dedbdc;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.special-text {
+font-family: 'wisdom-script';
+font-weight: normal;
+font-size: 16px;
+
+}
